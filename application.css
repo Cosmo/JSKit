@@ -1,0 +1,136 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+
+html, body {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Sans-Serif;
+  background-color: #F1F1F1;
+}
+
+.js-view {
+  background-color: red;
+  overflow: auto;
+  position: absolute;
+}
+
+.js-table-view {
+  background-color: #CCCCCC;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  position: absolute;
+}
+
+.js-table-view .js-table-view-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.js-table-view li.js-table-view-cell {
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.js-table-view li.js-table-view-cell-style-default .text-label {
+  position: absolute;
+  top: 0px;
+  font-size: 15px;
+  left: 15px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.js-table-view li.js-table-view-cell-style-subtitle .text-label {
+  position: absolute;
+  top: 5px;
+  font-size: 15px;
+  left: 15px;
+  font-weight: bold;
+}
+
+.js-table-view li.js-table-view-cell-style-subtitle .detail-text-label {
+  position: absolute;
+  top: 23px;
+  font-size: 12px;
+  left: 15px;
+}
+
+.js-table-view li.js-table-view-cell.selected {
+  background-color: blue;
+}
+
+
+
+
+.js-collection-view {
+  background-color: #CCCCCC;
+  overflow: auto;
+  position: absolute;
+}
+
+.js-collection-view .js-collection-view-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.js-collection-view li.js-collection-view-cell {
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border: 1px solid #666666;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  -webkit-transition: top     0.25s ease, 
+                      left    0.25s ease, 
+                      bottom  0.25s ease, 
+                      right   0.25s ease;
+}
+
+
+
+.js-collection-view li.js-collection-view-cell {
+  background-size: cover;
+  background-position: center;
+}
+
+.js-collection-view li.js-collection-view-cell  {
+}
+
+.cell-0 {
+  background-image: url("images/giphy-0.gif");
+}
+
+.cell-1 {
+  background-image: url("images/giphy-1.gif");
+}
+
+.cell-2 {
+  background-image: url("images/giphy-2.gif");
+}
+
+.cell-3 {
+  background-image: url("images/giphy-3.gif");
+}
+
+.cell-4 {
+  background-image: url("images/giphy-4.gif");
+}
+

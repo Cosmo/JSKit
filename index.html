@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>JSKit</title>
+    <script type="text/javascript" charset="utf-8" src="lib/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jskit/jslog.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jskit/jsobject.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jskit/jsgeometry.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jskit/jsview.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jskit/jsscrollview.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jskit/jstableview.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jskit/jscollectionviewlayoutattributes.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jskit/jscollectionview.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jskit/jsindexpath.js"></script>
+    <script type="text/javascript" charset="utf-8" src="application.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jquery.ba-throttle-debounce.js"></script>
+    <link rel="stylesheet" href="application.css" type="text/css" media="screen" charset="utf-8" />
+    <style type="text/css" media="screen">
+      #debug {
+        height: 200px;
+        overflow: auto;
+        background-color: black;
+      }
+      #debug li {
+        font-size: 12px;
+        font-family: "Andale Mono", Monaco;
+        color: #00FF00;
+        line-height: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="js-collection-view" id="collection-view-example"><ul class="js-view-inner"></ul></div>
+    <div class="js-table-view" id="table-view-example"><ul class="js-view-inner"></ul></div>
+  </body>
+</html>
